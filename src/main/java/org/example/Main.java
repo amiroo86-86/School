@@ -29,7 +29,7 @@ Student student1 = new Student(name, id,avg);
                 "   ;" + "the avg is: " + student1.getAvg());
 
 
-        System.out.println();
+        
 
         System.out.println("status: ");
         System.out.println(student1.check());
