@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-//input class
+        //input class
         Scanner in = new Scanner(System.in);
 
 
@@ -23,7 +23,7 @@ public class Main {
 
 
 
-Student student1 = new Student(name, id,avg);
+        Student student1 = new Student(name, id,avg);
         System.out.println("the info of studnet is : ");
         System.out.println("the name is: " + student1.getName() + "   ;" + "the id is: " + student1.getId() +
                 "   ;" + "the avg is: " + student1.getAvg());
